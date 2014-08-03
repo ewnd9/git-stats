@@ -16,6 +16,12 @@ if [ ! $# -eq 0  ]
         node $CURR_DIR/../gen.js
         exit 0
     fi
+
+    if [ $1 == "--load-all" ]
+      then
+        node $CURR_DIR/../load.js "$@"
+        exit 0
+    fi
 fi
 
 git "$@"
