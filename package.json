@@ -1,33 +1,19 @@
 {
-  "name": "git-stats",
-  "version": "0.0.3",
+  "name": "git-stats-ewnd9",
   "author": {
-    "name": "Josh Perez",
-    "email": "josh@goatslacker.com",
-    "url": "http://github.com/goatslacker"
-  },
-  "description": "personal git statistics for fun",
-  "homepage": "http://github.com/goatslacker/git-stats",
-  "keywords": ["git", "statistics", "tracking", "scrobbling"],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/goatslacker/git-stats.git"
-  },
-  "license": {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/mit-license.php"
+    "name": "ewnd9",
+    "email": "ewndnine@gmail.com",
+    "url": "http://github.com/ewnd9"
   },
   "dependencies": {
+    "exec-sync": "0.1.6",
     "gister": "0.0.5",
+    "jade": "1.8.2",
     "moment": "2.8.1",
-    "open": "0.0.3",
-    "exec-sync": "0.1.6"
+    "swig": "^1.4.2"
   },
   "engines": {
     "node": ">= 0.4.0"
-  },
-  "bin": {
-    "git-stats": "./bin/git-stats"
   },
   "main": "git.js",
   "preferGlobal": true
