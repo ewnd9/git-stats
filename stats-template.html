@@ -1,0 +1,12 @@
+<h1>Statistics</h1>
+<table>
+{% for _events in events %}
+  <tr>
+  {% for event in _events %}
+    <td style="background-color: {{ event.color }};">
+      {{ event.date }}
+    </td>
+  {% endfor %}
+  </tr>
+{% endfor %}
+</table>
